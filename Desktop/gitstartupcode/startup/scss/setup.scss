@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* 使用フォント追加 */
+/*@font-face {
+	font-family: "Talokofont";
+	src:url("fonts/Taloko.woff") format('woff'),
+	url("fonts/Taloko.ttf") format('truetype');
+}*/
+
+body {
+  font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+/* clearfix　回りこみ解除 */
+
+.cfx:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 左寄せ */
+
+.flL {
+  float: left;
+}
+
+/* 右寄せ */
+
+.flR {
+  float: right;
+}
+
+/* 文字左寄せ */
+
+.txL {
+  text-align: left;
+}
+
+/* 文字中央寄せ */
+
+.txC {
+  text-align: center;
+}
+
+/* 文字右寄せ */
+
+.txR {
+  text-align: right;
+}
+
+/*空白*/
+
+.tab1 {
+  padding-left: 20px;
+}
+
+.tab2 {
+  padding-left: 40px;
+}
+
+.tab3 {
+  padding-left: 60px;
+}
+
+ol{
+  list-style: none;
+}
+
+/*liを横に並べる*/
+
+ol.cfx li,ul.cfx li {
+  float: left;
+}
+
+.block{
+  display: block;
+}
+.sp-block{
+  display: inline;
+}
+@media screen and (max-width: 640px) {
+  .sp-block{
+    display: block;
+  }
+}

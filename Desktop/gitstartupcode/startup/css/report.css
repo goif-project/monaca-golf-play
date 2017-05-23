@@ -1,0 +1,127 @@
+.page-wrap { width: 1040px; margin: 0 auto; }
+.page-wrap article { float: left; width: 700px; margin: 20px 30px 0 0; }
+.page-wrap article .report-wrap { border: 1px solid #ededed; box-sizing: border-box; }
+.page-wrap article .report-wrap h1 { margin: 20px; font-size: 24px; line-height: 1.6; font-weight: 500; }
+.page-wrap article .report-wrap .share { margin: 0 20px; }
+.page-wrap article .report-wrap .share li { margin: 0 10px 0 0; }
+.page-wrap article .report-wrap .share li:last-child { margin: 0; }
+.page-wrap article .report-wrap .report-auther { padding: 10px; background: #ededed; }
+.page-wrap article .report-wrap .report-auther .title { font-size: 16px; color: #a2a2a2; padding: 0 10px 0 0; }
+.page-wrap article .report-wrap .report-auther .auther .photo img { border-radius: 50%; }
+.page-wrap article .report-wrap .report-auther .auther .name { padding: 0 0 0 10px; font-size: 16px; font-weight: 500; line-height: 68px; }
+.page-wrap article .report-wrap .report-auther .date span { display: block; height: 34px; min-width: 120px; }
+.page-wrap article .report-wrap .report-auther .date span.janru { background: #16a1e7; font-size: 14px; }
+.page-wrap article .report-wrap .report-auther .date span.janru a { display: block; width: 100%; height: 100%; color: #fff; padding: 10px; box-sizing: border-box; }
+.page-wrap article .report-wrap .report-auther .date span.number { font-size: 20px; font-weight: 500; padding: 10px 0 0; box-sizing: border-box; }
+.page-wrap article .report-wrap .report-detail { padding: 15px; }
+.page-wrap article .report-wrap .report-detail h2 { font-size: 18px; line-height: 1.6; margin: 15px 0 24px; padding: 2px 0 2px 10px; border-left: 10px solid #16a1e7; }
+.page-wrap article .report-wrap .report-detail h3 { font-size: 16px; padding: 10px 0 15px; }
+.page-wrap article .report-wrap .report-detail p { font-size: 14px; padding: 0 0 20px; line-height: 1.714285714; }
+.page-wrap article .report-wrap .report-detail .italic { font-size: 12px; line-height: 2; color: #666; font-style: italic; }
+.page-wrap article .report-wrap .report-detail .comment { padding: 0 0 10px; }
+.page-wrap article .report-wrap .report-detail .comment img { padding: 0 0 10px; }
+.page-wrap article .report-wrap .report-detail a { color: #16a1e7; }
+.page-wrap article .report-wrap .report-detail img { width: 100%; }
+.page-wrap article .report-wrap .report-detail hr { background-color: #ccc; border: 0; height: 1px; margin: 24px; }
+.page-wrap article .report-wrap .report-detail .blue { color: #1c4bfd; }
+.page-wrap article .report-wrap .report-detail .skyblue { color: #50bef6; }
+.page-wrap article .report-wrap .report-detail .red { color: #ec2929; }
+.page-wrap article .report-wrap .report-detail .pink { color: #e22a9e; }
+.page-wrap article .report-wrap .report-detail .yellow { color: #f5f314; }
+.page-wrap article .report-wrap .report-detail .orange { color: #fda929; }
+.page-wrap article .report-wrap .report-detail .green1 { color: #1df459; }
+.page-wrap article .report-wrap .report-detail .green2 { color: #0a9f34; }
+.page-wrap article .report-wrap .report-detail .report-category p.title { background: #16a1e7; padding: 5px; margin: 0 10px; color: #fff; }
+.page-wrap article .report-wrap .report-detail .report-category p.title-link { padding: 5px; }
+.page-wrap article .report-wrap .report-detail .report-category p.title-link a { color: #000; }
+.page-wrap article .report-wrap .report-detail .report-category p.tag-link { padding: 5px 0; }
+.page-wrap article .report-wrap .report-detail .report-category p.tag-link a { color: #000; }
+.page-wrap article .report-wrap .report-detail .report-category p.tag-link:after { content: ","; margin: 0 5px; }
+.page-wrap article .report-wrap .report-detail .report-category p.tag-link:last-child:after { content: ""; padding: 0; }
+.page-wrap article .report-wrap .report-profile { border-bottom: 2px solid #ededed; margin: 0 15px 15px; padding: 15px 0; }
+.page-wrap article .report-wrap .report-profile .photo { width: 68px; margin: 0 20px 0 0; }
+.page-wrap article .report-wrap .report-profile .photo img { border-radius: 50%; }
+.page-wrap article .report-wrap .report-profile .text-wrap { width: 560px; color: #757575; line-height: 1.846153846; }
+.page-wrap article .report-wrap .report-profile .text-wrap h2 { font-size: 16px; }
+.page-wrap article .report-wrap .report-profile .text-wrap .profile { font-size: 13px; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-link { font-size: 13px; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-link a { color: #16a1e7; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-sns a { display: inline-block; color: #fff; margin: 5px 15px 5px 0; padding: 2px 5px; border-radius: 5px; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-sns a.facebook { background: #3b5998; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-sns a.twitter { background: #2aa9de; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-sns a i { padding: 0 0 0 10px; }
+.page-wrap article .report-wrap .report-profile .text-wrap .auther-sns a span { padding: 0 10px; }
+.page-wrap article .report-wrap .page-btn { padding: 0 15px 15px; }
+.page-wrap article .report-wrap .page-btn .prev-btn { width: 325px; }
+.page-wrap article .report-wrap .page-btn .prev-btn .prev-title { position: relative; padding: 5px 0; font-size: 15px; color: #fff; background: #16a1e7; }
+.page-wrap article .report-wrap .page-btn .prev-btn .prev-title:after { content: "<"; font-size: 20px; position: absolute; top: 0; left: 25px; }
+.page-wrap article .report-wrap .page-btn .prev-btn .btn-text { height: 5em; padding: 10px; font-size: 14px; color: #000; line-height: 1.6; border: 1px solid #16a1e7; }
+.page-wrap article .report-wrap .page-btn .next-btn { width: 325px; }
+.page-wrap article .report-wrap .page-btn .next-btn .next-title { position: relative; padding: 5px 0; font-size: 15px; color: #fff; background: #16a1e7; }
+.page-wrap article .report-wrap .page-btn .next-btn .next-title:after { content: ">"; font-size: 20px; position: absolute; top: 0; right: 25px; }
+.page-wrap article .report-wrap .page-btn .next-btn .btn-text { height: 5em; padding: 10px; font-size: 14px; color: #000; line-height: 1.6; border: 1px solid #16a1e7; }
+
+@media screen and (max-width: 640px) { .page-wrap { width: 100%; margin: 10px 0 0; }
+  .page-wrap article { float: none; width: 95%; margin: 0 auto; }
+  .page-wrap article .report-wrap h1 { margin: 15px; font-size: 20px; line-height: 1.3; }
+  .page-wrap article .report-wrap .share { margin: 0 15px; }
+  .page-wrap article .report-wrap .report-auther .title { display: none; }
+  .page-wrap article .report-wrap .report-auther .auther { float: none; margin: 0 5px; }
+  .page-wrap article .report-wrap .report-auther .auther .photo img { width: 44px; }
+  .page-wrap article .report-wrap .report-auther .auther .name { font-size: 16px; line-height: 44px; }
+  .page-wrap article .report-wrap .report-auther .date { display: none; }
+  .page-wrap article .report-wrap .report-detail h2 { font-size: 15px; margin: 10px 0 18px; }
+  .page-wrap article .report-wrap .report-detail h3 { font-size: 14px; }
+  .page-wrap article .report-wrap .report-detail p { font-size: 13px; padding: 0 0 15px; }
+  .page-wrap article .report-wrap .report-detail .italic { font-size: 10px; }
+  .page-wrap article .report-wrap .report-detail .report-category .category { margin: 10px 0; }
+  .page-wrap article .report-wrap .report-detail .report-category .category:after, .page-wrap article .report-wrap .report-detail .report-category .tag:after { content: ""; display: block; clear: both; }
+  .page-wrap article .report-wrap .report-detail .linkcard { margin-right: 0; }
+  .page-wrap article .report-wrap .report-profile { position: relative; margin: 0; padding: 15px; }
+  .page-wrap article .report-wrap .report-profile .text-wrap { width: 100%; margin: 10px 0 0; font-size: 12px; }
+  .page-wrap article .report-wrap .report-profile .text-wrap h2 { font-size: 13px; position: absolute; top: 40px; left: 100px; }
+  .page-wrap article .report-wrap .page-btn { padding: 0; }
+  .page-wrap article .report-wrap .page-btn .prev-btn { width: 100%; }
+  .page-wrap article .report-wrap .page-btn .next-btn { width: 100%; margin: 15px 0; } }
+.sns-header, .sns-footer { padding: 0; }
+
+.sns-area { margin: 0 auto; padding: 0; overflow: hidden; table-layout: fixed; display: table; width: 100%; }
+
+.sns-area i { padding: 0 5px 0 0; }
+
+.sns-area .hatena::before { content: 'B!'; font-family: Verdana; font-weight: bold; margin: 0 5px 0 0; }
+
+.sns-area li { list-style-type: none; display: table-cell; vertical-align: middle; }
+
+.sns-area li:last-child { margin-right: 0; }
+
+.sns-link { position: relative; display: block; color: #fff !important; text-align: center; text-decoration: none; outline: none; overflow: hidden; height: 42px; line-height: 42px; }
+
+.sns-link::after { position: absolute; top: 50%; left: 50%; z-index: 2; display: block; content: ''; width: 0; height: 0; background-color: rgba(255, 255, 255, 0.3); border-radius: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); opacity: 0; }
+
+.sns-link:hover { text-decoration: none; }
+
+a.sns-link:hover { color: #fff; }
+
+.sns-link:hover::after { -webkit-animation: circle 1s; animation: circle 1s; }
+
+@-webkit-keyframes circle { 50% { opacity: 1; }
+  100% { width: 300px; height: 300px; } }
+@keyframes circle { 50% { opacity: 1; }
+  100% { width: 300px; height: 300px; } }
+.sns-twitter { color: #fff; background: #55acee; }
+
+.sns-facebook { color: #fff; background: #3a5795; }
+
+.sns-bookmark { color: #fff; background: #00A5DE; }
+
+.sns-googleplus { color: #fff; background: #db4a39; }
+
+.sns-pocket { color: #fff; background: #EE4256; }
+
+.blogicon-twitter, .blogicon-facebook, .blogicon-bookmark, .fa fa-google-plus, .blogicon-chevron-down { margin-right: 5px; }
+
+.share-text { padding-left: 4px; }
+
+@media only screen and (max-width: 640px) { .share-text, .sns-txt { display: none; }
+  .blogicon-twitter, .blogicon-facebook, .blogicon-bookmark, .fa fa-google-plus, .blogicon-chevron-down { margin-right: 0; } }
